@@ -20,7 +20,7 @@ export default async ({ req, res }) => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${process.env.PANGEA_REDACT_TOKEN}`,
+      Authorization: `Bearer pts_o7era2twypuyi4rmgucd36xt46dlpznd`,
     },
     body: JSON.stringify({
       text: req.body.text,
